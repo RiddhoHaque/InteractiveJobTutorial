@@ -2,8 +2,10 @@ import sys
 
 
 def take_input():
-    num1 = float(input('Enter the first number for the operation: '))
-    num2 = float(input('Enter the second number for the operation: '))
+    print('Enter the first number for the operation: ')
+    num1 = float(input())
+    print('Enter the second number for the operation: ')
+    num2 = float(input())
     return num1, num2
 
 
