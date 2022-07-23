@@ -25,7 +25,7 @@ def main(args):
         print('Selected Operation: Subtraction')
         operand1, operand2 = take_input()
         print('The result of the operation is', operand1 - operand2)
-    elif args[0] == '*':
+    elif args[0] == 'X':
         print('Selected Operation: Multiplication')
         operand1, operand2 = take_input()
         print('The result of the operation is', operand1 * operand2)
