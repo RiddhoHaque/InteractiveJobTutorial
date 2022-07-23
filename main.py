@@ -8,6 +8,7 @@ def take_input():
 
 
 def main(args):
+    print('Arguments:', args)
     if len(args) < 1:
         print('Not enough arguments')
         exit(0)
